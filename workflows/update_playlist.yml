@@ -2,8 +2,7 @@ name: Auto-Update Playlist
 
 on:
   schedule:
-    - cron: '0 */24 * * *'  # Her 24 saatte bir
-  workflow_dispatch:         # Manuel tetikleme
+    - cron: '0 */24 * * *'  # Her 3 saatte bir
 
 jobs:
   update:
